@@ -21,8 +21,13 @@ public class ED_T4 {
             
         }
 
+        public Votacion(String nombre) {
+            this.nombre = nombre;
+        }
+
+        
         public Votacion(String nombre, Integer votos) {
-            super();
+            
             this.nombre = nombre;
             this.votos = votos;
         }
@@ -39,10 +44,7 @@ public class ED_T4 {
             return votos;
         }
 
-        public void setVotos(Integer votos) {
-            this.votos = votos;
-        }
-        
+       
     }
     
 }
